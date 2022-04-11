@@ -1,0 +1,25 @@
+.favourites{
+    width: 100%;
+    background-color: #141111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+.favourites-card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.favourites-card{
+    display: inline-flex;
+    flex-direction: column;
+    border-radius: 11px 11px 0 0;
+    overflow: hidden;
+    max-width: 268px;
+    border: 1px solid rgba(255, 255, 255, .3);
+    margin: 10px 8px;
+}

@@ -72,11 +72,13 @@
     margin: 0 auto;
     margin-top: 30px;
 }
-.sparta-num, .profile-rating{
+.profile-top-user, .profile-rating{
     color: #fbbb43;;
     font-weight: 500;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
 }
 .profile-advantages{
     display: flex;
@@ -126,10 +128,6 @@
 
 
 @media(max-width: 1150px){
-    .container{
-        padding-right: 48px;
-        padding-left: 48px;
-    }
     .profile-container{
         width: 100%;
     }
@@ -150,10 +148,6 @@
 
 
 @media(max-width: 767px){
-    .container{
-        padding-right: 25px;
-        padding-left: 25px;
-    }
     .profile-head{
         padding: 0 10px;
         align-items: flex-end;

@@ -1,9 +1,9 @@
 import React from "react";
-import Profile from "./Pages/Profile/profile";
+import Routers from "./Routers";
 function App() {
   return (
     <div className="App">
-      <Profile />
+      <Routers />
     </div>
   );
 }

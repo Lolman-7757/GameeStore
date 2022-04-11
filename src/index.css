@@ -16,4 +16,26 @@
 }
 :root{
     --orange--: #fbbb43;
+    --dark-background--: #141111;
+}
+a{
+    text-decoration: none;
+    color: #fbbb43;
+}
+.orange{
+    color: #fbbb43;
+}
+
+@media(max-width: 1150px){
+    .container{
+        padding-right: 48px;
+        padding-left: 48px;
+    }
+}
+
+@media(max-width: 767px){
+    .container{
+        padding-right: 25px;
+        padding-left: 25px;
+    }
 }

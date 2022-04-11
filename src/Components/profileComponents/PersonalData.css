@@ -1,0 +1,201 @@
+.profile-data {
+    width: 90%;
+    margin: auto;
+    padding: 40px calc(100%/11) 50px;
+    background: #000;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.profiledata-avatar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.data-avatar{
+    width: 160px;
+    height: 160px;
+    background-color: #92ffe5;
+    border-radius: 50%;
+    border: 3px solid var(--orange--);
+}
+.change-avatar{
+    color: var(--orange--);
+    font-size: 14px;
+    margin-top: 10px;
+}
+.profiledata-title{
+    letter-spacing: .04em;
+    font-size: 24px;
+    margin-top: 50px;
+}
+form{
+    /* border: 1px solid #fff; */
+    width: 100%;
+    color: #fff;
+    
+}
+.data-warning{
+    width: 100% !important;
+    padding: 15px;
+    border: 1px solid var(--orange--);
+    border-radius: 10px;
+    margin-bottom: 30px !important;
+}
+.data-change-pin{
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: .04em;
+    margin-bottom: 15px;
+}
+.linking-account{
+    color: #fff;
+    font-size: 24px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+.link-text{
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 3;
+}
+#standard{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+label{
+    color: #fff;
+}
+.MuiInput-underline:after {   
+    border-bottom: 2px solid #fff !important;
+}
+.MuiFormLabel-root{
+    color: #fff !important;
+} 
+.personal-data-icons{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid #fff; */
+}
+.data-social{
+    margin-right: 20px;
+    font-size: 23px;
+    border: 1px solid rgba(255, 255, 255, .2);
+    padding: 10px;
+    box-sizing: content-box;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.data-social:hover{
+    border: 1px solid var(--orange--)
+}
+.profile-agree{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid #fff; */
+    margin-top: 20px !important;
+    font-size: 12px;
+    align-items: center;
+}
+.profile-checkbox{
+    width: 35px !important;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    padding: 3px 4px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    margin-right: 20px !important;
+}
+.checked{
+    width: 35px !important;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    padding: 3px 4px;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+    margin-right: 20px !important;
+}
+.profile-checkroll{
+    width: 10px;
+    height: 10px;
+    background-color: var(--orange--);
+    border-radius: 50%;
+}
+.profile-checkroll-checked{
+    width: 10px;
+    height: 10px;
+    background-color: grey;
+    border-radius: 50%;
+}
+.profie-checkbox-warning{
+    color: #ff5858;
+    font-size: 12px;
+    display: none;
+}
+.profie-checkbox-warned{
+    color: #ff5858;
+    font-size: 12px;
+    display: block;
+}
+.profile-btns{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px !important;
+}
+.profile-save-btn, .profile-output-btn{
+    width: auto !important;
+    padding:7px 15px;
+    border: 0;
+    color: #000;
+    outline: none;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: var(--orange--);
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+}
+.profile-save-btn-disagreed{
+    width: auto !important;
+    padding:7px 15px;
+    border: 0;
+    color: #000;
+    outline: none;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #997128;
+    font-weight: 600;
+    cursor: pointer;
+}
+.profile-save-btn:hover{
+    background-color: #fff;
+}
+.profile-save-btn-disagreed:hover{
+    background-color: grey;
+}
+.profile-output-btn{
+    background-color: #ff5858;
+}
+
+
+
+
+
+
+@media(max-width: 1150px){
+    .profile-data{
+        width: 100%;
+    }
+}

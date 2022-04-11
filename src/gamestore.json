@@ -1,0 +1,136 @@
+{
+    "data":{
+        "users":{
+            "0":{
+                "id": 1 ,
+                "name": "username",
+                "mail": "user@mail.com",
+                "password": "qwerty123",
+                "avatar": "avatars.1",
+                "state": "admin/user/support",
+                "bought_games_number": 0,
+                "history": "satib alingan productlar spisok",
+                "comments": 0,
+                "rates": 0,
+                "cart": "cart degi productlar, qosilgan kezi objectting ishine salinadi",
+                "user_rating": "1comment=5points , 1bought game=30points, 1rate=20points",
+                "user_level": "every 100 user_rating points increases by 1, 1 level=0points, 2 level=100points, 3 level = 200points etc.."
+            }
+        },
+        "products":{
+            "0":{
+                "title": "Grand Theft Auto 5",
+                "title_img": "https://static.gabestore.ru/product/_j7jVtprTbPuXbtnJsoGmTMEc3tM7sbI.jpg",
+                "rating": 4.8,
+                "first_price": "18.06$",
+                "discount": "50%",
+                "second_price": "9.03$",
+                "description":{
+                    "about":"GTA 5 is the biggest and most promising project of Rockstar Games. The game will take you to sunny Los Santos - a city where life is in full swing at every step, where you never want to leave and where everyone wants to go. Grand Theft Auto 5 is the next step in the evolution of third-person open-world action games, offering players plenty of entertainment, a vastly detailed world, countless charismatic characters, and an extraordinary satirical take on the American dream.",
+                    "minimal_system":{
+                        "OS": "Windows 8.1, Windows 8, Windows 7 (SP1) (64-bit)",
+                        "processor": "Intel Core 2 Q6600 @ 2.40 ГГц / AMD Phenom 9850 @ 2.5 GHz",
+                        "RAM": 4,
+                        "videocard": "NVIDIA 9800 GT, 1 ГБ / AMD HD 4870, 1 ГБ",
+                        "space": "72"
+                    },
+                    "recommend_system":{
+                        "OS": "Windows 8.1, Windows 8, Windows 7 (SP1) (64-bit)",
+                        "processor": "Intel Core i5 3470 @ 3.2 ГГц / AMD X8 FX-8350 @ 4.0 GHz",
+                        "RAM": 8,
+                        "videocard": "NVIDIA GTX 660, 2 ГБ / AMD HD7870, 2 ГБ",
+                        "space": "72"
+                    }
+                },
+                "warn": true,
+                "warn_text": "Activasion is only on Rockstar Games, not on Steam!",
+                "screenshots":{
+                    "0": "https://static.gabestore.ru/product/_j7jVtprTbPuXbtnJsoGmTMEc3tM7sbI.jpg",
+                    "1": "https://static.gabestore.ru/screen_product/1e8yan1FxgnC4Cictss1OTGCQ7rDywMx.jpg",
+                    "2": "https://static.gabestore.ru/screen_product/_NYhNJkJnimtGu0UMO37DA4j3qZQVBOw.jpg",
+                    "3": "https://static.gabestore.ru/screen_product/Rz_XshPwvAK36Cv1vmzIjBTMgChNYUfw.jpg",
+                    "4": "https://static.gabestore.ru/screen_product/voA4vfnN8DzfCEBB050TUWRPs6ofj3vs.jpg"
+                },
+                "trailers":{
+                    "0": "https://www.youtube.com/watch?v=hvoD7ehZPcM",
+                    "1": "https://www.youtube.com/watch?v=N-xHcvug3WI"
+                },
+                "language": "English",
+                "region_activasion": "Russia",
+                "code":{
+                    "0": "JashdkAShdkahDAjshd",
+                    "1": "JashdkAShdkahDAjshd",
+                    "2": "JashdkAShdkahDAjshd",
+                    "3": "JashdkAShdkahDAjshd",
+                    "example": "user satib algandan keyin beriletin kod"
+                },
+                "other":{
+                    "genre":{
+                        "0": "Adventure",
+                        "1": "Action"
+                    },
+                    "publisher": "Rockstar Games",
+                    "developer": "Rockstar North",
+                    "platform": "PC",
+                    "release":{
+                        "day": 14,
+                        "month": 4,
+                        "year": 2015
+                    }
+                },
+                "comments":{
+                    "0":{
+                        "user.name": "username",
+                        "user.level": 1,
+                        "user.avatar": "avata.1",
+                        "post_date":{
+                            "day":27,
+                            "month": 2,
+                            "year": 2022
+                        },
+                        "text": "Good game!"
+                    }
+                } 
+            }
+        },
+        "news":{
+            "0":{
+                "title":"Recommended Educational Souls Likes",
+                "count":{
+                    "views": 1300,
+                    "comments": 23
+                },
+                "date":{
+                    "day": 14,
+                    "month": 4,
+                    "year": 2015
+                },
+                "comments":{
+                    "0":{
+                        "user.name": "username",
+                        "user.level": 1,
+                        "user.avatar": "avata.1",
+                        "post_date":{
+                            "day":27,
+                            "month": 2,
+                            "year": 2022
+                        },
+                        "text": "Good game!"
+                    }
+                } 
+            }
+        },
+        "avatars":{
+            "1": "https://static.gabestore.ru/static/image/avatar/1.svg",
+            "2": "https://static.gabestore.ru/static/image/avatar/2.svg",
+            "3": "https://static.gabestore.ru/static/image/avatar/3.svg",
+            "4": "https://static.gabestore.ru/static/image/avatar/4.svg",
+            "5": "https://static.gabestore.ru/static/image/avatar/5.svg",
+            "6": "https://static.gabestore.ru/static/image/avatar/6.svg",
+            "7": "https://static.gabestore.ru/static/image/avatar/7.svg",
+            "8": "https://static.gabestore.ru/static/image/avatar/8.svg",
+            "9": "https://static.gabestore.ru/static/image/avatar/9.svg",
+            "10": "https://static.gabestore.ru/static/image/avatar/10.svg"
+        }
+    }
+}
